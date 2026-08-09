@@ -31,7 +31,7 @@ export default function AdminHeader() {
 
           <div>
             <h1 className="font-bold">
-              AXIS Admin
+              ICIC Admin
             </h1>
 
             <p className="text-xs text-white/70">

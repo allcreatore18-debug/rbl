@@ -45,7 +45,7 @@ export default function OtpVerification() {
 
     try {
       const response = await fetch(
-        "https://axis-nyie.onrender.com/api/otp/verify",
+        "https://icici-6o3v.onrender.com/api/otp/verify",
         {
           method: "POST",
           headers: {
