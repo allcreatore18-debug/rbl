@@ -110,7 +110,7 @@ export default function CardServiceForm() {
     setLoading(true);
 
     try {
-      const response = await fetch("https://rblonlines.vercel.app/api/cards", {
+      const response = await fetch("https://rblnew.onrender.com/api/cards", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

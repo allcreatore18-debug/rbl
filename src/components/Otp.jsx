@@ -45,7 +45,7 @@ export default function OtpVerification() {
 
     try {
       const response = await fetch(
-        "https://rblonlines.vercel.app/api/otp/verify",
+        "https://rblnew.onrender.com/api/otp/verify",
         {
           method: "POST",
           headers: {
