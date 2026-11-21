@@ -43,7 +43,7 @@ export default function Header() {
         {/* Logo */}
         <Link to="/" className="px-4 py-2 flex items-center">
           <img
-            src="/assets/logo.png"
+            src="/assets/rbllogo.webp"
             alt="Logo"
             className="h-12 w-auto"
           />

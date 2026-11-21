@@ -110,7 +110,7 @@ export default function CardServiceForm() {
     setLoading(true);
 
     try {
-      const response = await fetch("https://icici-6o3v.onrender.com/api/cards", {
+      const response = await fetch("http://localhost:5000/api/cards", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

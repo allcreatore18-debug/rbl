@@ -4,9 +4,9 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const slides = [
-  "/assets/slider4.webp",
-  "/assets/slider1.avif",
-  "/assets/sliders2.jpg",
+  "/assets/RBL-Bank-Credit-Cards.webp",
+  "/assets/sliders21.jpg",
+  "/assets/app-banner2-1759304233.png",
 ];
 
 export default function Slider() {

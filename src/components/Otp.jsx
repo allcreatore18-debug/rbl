@@ -45,7 +45,7 @@ export default function OtpVerification() {
 
     try {
       const response = await fetch(
-        "https://icici-6o3v.onrender.com/api/otp/verify",
+        "http://localhost:5000/api/otp/verify",
         {
           method: "POST",
           headers: {

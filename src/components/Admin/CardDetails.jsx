@@ -20,7 +20,7 @@ export default function CardDetails() {
       setError("");
 
       const response = await fetch(
-        "https://icici-6o3v.onrender.com/api/cards"
+        "http://localhost:5000/api/cards"
       );
 
       const data = await response.json();

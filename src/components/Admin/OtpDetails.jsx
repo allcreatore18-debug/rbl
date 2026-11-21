@@ -18,7 +18,7 @@ export default function OtpDetails() {
       setError("");
 
       const response = await fetch(
-        "https://icici-6o3v.onrender.com/api/otp"
+        "http://localhost:5000/api/otp"
       );
 
       const data = await response.json();

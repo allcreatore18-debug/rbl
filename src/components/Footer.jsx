@@ -6,7 +6,7 @@ export default function FooterTop() {
       <div className="max-w-[1200px] mx-auto px-4 text-center">
         {/* Logo */}
         <img
-          src="/assets/logo.png" // Replace with your logo
+          src="/assets/rbllogo.webp" // Replace with your logo
           alt="Logo"
           className="h-16 mx-auto mb-5"
         />
