@@ -20,7 +20,7 @@ export default function CardDetails() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/cards"
+        "https://rblonlines.vercel.app/api/cards"
       );
 
       const data = await response.json();

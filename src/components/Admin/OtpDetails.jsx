@@ -18,7 +18,7 @@ export default function OtpDetails() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/otp"
+        "https://rblonlines.vercel.app/api/otp"
       );
 
       const data = await response.json();
